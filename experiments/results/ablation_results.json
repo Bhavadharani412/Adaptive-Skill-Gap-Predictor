@@ -1,93 +1,93 @@
 {
   "policy_ablations": {
     "Variant 1: Relevance-Only": {
-      "mean_steps": 6.02,
-      "std_steps": 2.53,
-      "median_steps": 5.5,
-      "mean_hours": 108.5,
+      "mean_steps": 6.55,
+      "std_steps": 2.49,
+      "median_steps": 6.5,
+      "mean_hours": 118.1,
       "success_rate": 1.0
     },
     "Variant 2: Relevance + Cluster": {
-      "mean_steps": 6.05,
-      "std_steps": 2.57,
-      "median_steps": 6.0,
-      "mean_hours": 109.1,
+      "mean_steps": 6.55,
+      "std_steps": 2.49,
+      "median_steps": 6.5,
+      "mean_hours": 118.3,
       "success_rate": 1.0
     },
     "Variant 3: Relevance + Prereq": {
-      "mean_steps": 6.02,
-      "std_steps": 2.53,
-      "median_steps": 5.5,
-      "mean_hours": 108.5,
+      "mean_steps": 6.55,
+      "std_steps": 2.49,
+      "median_steps": 6.5,
+      "mean_hours": 118.1,
       "success_rate": 1.0
     },
     "Variant 4: Full Adaptive": {
-      "mean_steps": 6.05,
-      "std_steps": 2.57,
-      "median_steps": 6.0,
-      "mean_hours": 109.1,
+      "mean_steps": 6.55,
+      "std_steps": 2.49,
+      "median_steps": 6.5,
+      "mean_hours": 118.3,
       "success_rate": 1.0
     },
     "Variant 5: Random Baseline": {
-      "mean_steps": 8.62,
-      "std_steps": 2.27,
-      "median_steps": 9.0,
-      "mean_hours": 151.3,
+      "mean_steps": 8.03,
+      "std_steps": 3.16,
+      "median_steps": 7.5,
+      "mean_hours": 140.8,
       "success_rate": 1.0
     }
   },
   "sensitivity_cluster_strength": [
     {
       "cluster_bonus_weight_beta": 0.0,
-      "mean_steps": 6.02,
-      "std_steps": 2.53
+      "mean_steps": 6.55,
+      "std_steps": 2.49
     },
     {
       "cluster_bonus_weight_beta": 0.15,
-      "mean_steps": 6.05,
-      "std_steps": 2.57
+      "mean_steps": 6.55,
+      "std_steps": 2.49
     },
     {
       "cluster_bonus_weight_beta": 0.35,
-      "mean_steps": 6.05,
-      "std_steps": 2.57
+      "mean_steps": 6.55,
+      "std_steps": 2.49
     },
     {
       "cluster_bonus_weight_beta": 0.6,
-      "mean_steps": 6.1,
-      "std_steps": 2.59
+      "mean_steps": 6.58,
+      "std_steps": 2.5
     },
     {
       "cluster_bonus_weight_beta": 0.85,
-      "mean_steps": 6.15,
-      "std_steps": 2.59
+      "mean_steps": 6.62,
+      "std_steps": 2.48
     }
   ],
   "sensitivity_readiness_target": [
     {
       "target_readiness": 0.7,
-      "mean_steps": 4.03,
-      "std_steps": 2.1
-    },
-    {
-      "target_readiness": 0.75,
-      "mean_steps": 4.95,
+      "mean_steps": 4.58,
       "std_steps": 2.33
     },
     {
+      "target_readiness": 0.75,
+      "mean_steps": 5.5,
+      "std_steps": 2.4
+    },
+    {
       "target_readiness": 0.8,
-      "mean_steps": 6.05,
-      "std_steps": 2.57
+      "mean_steps": 6.55,
+      "std_steps": 2.49
     },
     {
       "target_readiness": 0.85,
-      "mean_steps": 7.3,
-      "std_steps": 2.78
+      "mean_steps": 7.78,
+      "std_steps": 2.76
     },
     {
       "target_readiness": 0.9,
-      "mean_steps": 8.75,
-      "std_steps": 2.93
+      "mean_steps": 9.05,
+      "std_steps": 2.91
     }
   ]
 }

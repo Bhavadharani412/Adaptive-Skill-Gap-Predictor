@@ -1,0 +1,38 @@
+{
+  "evaluation_protocol": "matched_per_employee_seeds (seed = 42000 + i)",
+  "sample_size": 100,
+  "target_readiness": 0.8,
+  "random": {
+    "mean_steps": 8.03,
+    "std_steps": 2.837093583229147,
+    "median_steps": 8.0,
+    "mean_hours": 140.62,
+    "std_hours": 50.11741812982788
+  },
+  "static": {
+    "mean_steps": 6.83,
+    "std_steps": 2.5022190151943136,
+    "median_steps": 7.0,
+    "mean_hours": 122.18,
+    "std_hours": 45.90759849959481
+  },
+  "adaptive": {
+    "mean_steps": 6.83,
+    "std_steps": 2.498219365868418,
+    "median_steps": 7.0,
+    "mean_hours": 122.16,
+    "std_hours": 45.8315873606839
+  },
+  "comparisons": {
+    "adaptive_vs_static": {
+      "wilcoxon_stat": 5.0,
+      "p_value": 1.0,
+      "cohens_d": 0.0
+    },
+    "adaptive_vs_random": {
+      "wilcoxon_stat": 237.5,
+      "p_value": 1.5533979975103313e-10,
+      "cohens_d": 0.7559289412565499
+    }
+  }
+}

@@ -119,12 +119,12 @@ pytest backend/tests/ -v
 | **Phase 6: Paper Reproduction** | Top-1/3 Relevance (Circular) | 0.8800 | 0.9854 | 0.8980 |
 | **Phase 7: Defensible Evaluation** | Downstream Readiness Impact | **0.8941** (95% CI: [0.890, 0.898]) | **0.9893** | 0.6118 |
 
-### Policy Performance to 80% Readiness Target
+### Policy Performance to 80% Readiness Target (Matched-Seed Protocol)
 | Policy | Mean Steps | Std Dev | Success Rate | Mean Learning Hours | Statistical Significance |
 |---|---|---|---|---|---|
-| **Policy A (Random)** | 7.35 | 2.67 | 100% | 127.0 hrs | Baseline |
-| **Policy B (Static Relevance)** | 7.67 | 2.49 | 100% | 136.8 hrs | $p = 8.03 \times 10^{-4}$ vs Random |
-| **Policy C (Adaptive Graph)** | **6.19** | **2.18** | **100%** | **110.4 hrs** | **$p = 5.14 \times 10^{-17}$ vs Static (Cohen's $d = 1.93$)** |
+| **Policy A (Random)** | 8.03 | 2.84 | 100% | 140.6 hrs | Baseline |
+| **Policy B (Static Relevance)** | 6.83 | 2.50 | 100% | 122.2 hrs | $p = 3.18 \times 10^{-10}$ vs Random (Cohen's $d = 0.74$) |
+| **Policy C (Adaptive Graph)** | **6.83** | **2.50** | **100%** | **122.2 hrs** | **$p = 1.55 \times 10^{-10}$ vs Random; Matches Static with full pedagogical scaffolding** |
 
 ---
 
