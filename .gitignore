@@ -1,5 +1,7 @@
-# User Requirement: PRD must never be tracked in git
+# User Requirement: PRD and papers must never be tracked in git
 docs/prd.md
+docs/*paper*.md
+
 
 # Python
 __pycache__/

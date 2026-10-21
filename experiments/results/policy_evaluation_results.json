@@ -5,58 +5,58 @@
     "random": {
       "cohort_size": 100,
       "success_rate": 1.0,
-      "steps_mean": 7.35,
+      "steps_mean": 8.03,
       "steps_median": 8.0,
-      "steps_std": 2.67,
+      "steps_std": 2.84,
       "steps_min": 1,
-      "steps_max": 12,
-      "mean_learning_hours": 127.0,
-      "mean_final_readiness": 0.8302,
+      "steps_max": 16,
+      "mean_learning_hours": 140.6,
+      "mean_final_readiness": 0.8269,
       "censored_count": 0
     },
     "static": {
       "cohort_size": 100,
       "success_rate": 1.0,
-      "steps_mean": 7.67,
-      "steps_median": 8.0,
-      "steps_std": 2.49,
+      "steps_mean": 6.83,
+      "steps_median": 7.0,
+      "steps_std": 2.5,
       "steps_min": 1,
-      "steps_max": 12,
-      "mean_learning_hours": 136.8,
+      "steps_max": 15,
+      "mean_learning_hours": 122.2,
       "mean_final_readiness": 0.8248,
       "censored_count": 0
     },
     "adaptive": {
       "cohort_size": 100,
       "success_rate": 1.0,
-      "steps_mean": 6.19,
+      "steps_mean": 6.83,
       "steps_median": 7.0,
-      "steps_std": 2.18,
+      "steps_std": 2.5,
       "steps_min": 1,
-      "steps_max": 12,
-      "mean_learning_hours": 110.4,
+      "steps_max": 15,
+      "mean_learning_hours": 122.2,
       "mean_final_readiness": 0.8252,
       "censored_count": 0
     }
   },
   "paired_statistical_tests": {
     "static_vs_random": {
-      "wilcoxon_stat": 306.0,
-      "p_value": 0.00080300572795013,
-      "cohens_d": -0.3378,
+      "wilcoxon_stat": 288.5,
+      "p_value": 3.1846223018567983e-10,
+      "cohens_d": 0.7358,
       "significant_at_05": true
     },
     "adaptive_vs_random": {
-      "wilcoxon_stat": 69.0,
-      "p_value": 2.01441599459855e-14,
-      "cohens_d": 1.255,
+      "wilcoxon_stat": 237.5,
+      "p_value": 1.5533979975103313e-10,
+      "cohens_d": 0.7559,
       "significant_at_05": true
     },
     "adaptive_vs_static": {
-      "wilcoxon_stat": 0.0,
-      "p_value": 5.137596671063067e-17,
-      "cohens_d": 1.9274,
-      "significant_at_05": true
+      "wilcoxon_stat": 5.0,
+      "p_value": 1.0,
+      "cohens_d": 0.0,
+      "significant_at_05": false
     }
   },
   "paper_references_comparison": {

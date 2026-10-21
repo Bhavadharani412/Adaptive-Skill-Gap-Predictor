@@ -22,7 +22,7 @@ All random numbers utilize explicit generators (`numpy.random.default_rng(seed)`
 | Synthetic Dataset Generation | `python scripts/generate_synthetic_data.py` | `42` | 40 occs, 220 skills (26 generic), 759 edges, 600 emps |
 | Knowledge Graph Construction | `python scripts/build_knowledge_graph.py` | N/A | 260 nodes, 1,942 edges, 8 clusters |
 | Classifier Training & Evaluation | `python scripts/train_classifier.py` | `42` (Paper), `[42, 101, 202, 303, 404]` (GroupKFold) | Paper RF F1 ~ 0.88, Improved RF F1 ~ 0.894 (95% CI: [0.890, 0.898]) |
-| Recommendation Policy Evaluation | `python scripts/evaluate_policies.py` | `42` | Adaptive mean steps ~6.19 vs Static 7.67 (p < 0.001) |
+| Recommendation Policy Evaluation | `python scripts/evaluate_policies.py` | `42` | Matched seeds: Adaptive & Static ~6.83 steps vs Random ~8.03 steps (p < 0.001) |
 | Ablation & Sensitivity Analysis | `python scripts/run_ablations.py` | `42` | 5 policy variants, 3 publication plots |
 | Database Seeding | `python -m backend.app.database.init_db` | N/A | SQLite database at `data/asgp.db` |
 | Automated Test Suite | `pytest backend/tests/ -v` | N/A | 11 passed |

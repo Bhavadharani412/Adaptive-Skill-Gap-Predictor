@@ -81,12 +81,13 @@ class AblationStudyService:
             hours_list = []
             reached_list = []
 
-            for _, emp in sample_emps.iterrows():
+            for idx, (_, emp) in enumerate(sample_emps.iterrows()):
                 e_id = str(emp["employee_id"])
                 o_id = str(emp["occupation_id"])
                 initial_skills = skills_by_emp.get_group(e_id).to_dict("records") if e_id in skills_by_emp.groups else []
+                emp_seed = (random_seed * 1000) + idx
 
-                ep = evaluator.simulate_episode(e_id, o_id, initial_skills, policy=pol, seed=random_seed)
+                ep = evaluator.simulate_episode(e_id, o_id, initial_skills, policy=pol, seed=emp_seed)
                 steps_list.append(ep["steps_to_target"])
                 hours_list.append(ep["total_learning_hours"])
                 reached_list.append(1 if ep["reached_target"] else 0)
@@ -119,11 +120,12 @@ class AblationStudyService:
             evaluator = PolicyEvaluator(self.kg, engine, target_readiness=0.80, max_budget=50)
 
             steps = []
-            for _, emp in sample_emps.iterrows():
+            for idx, (_, emp) in enumerate(sample_emps.iterrows()):
                 e_id = str(emp["employee_id"])
                 o_id = str(emp["occupation_id"])
                 initial_skills = skills_by_emp.get_group(e_id).to_dict("records") if e_id in skills_by_emp.groups else []
-                ep = evaluator.simulate_episode(e_id, o_id, initial_skills, policy=RecommendationPolicy.ADAPTIVE, seed=random_seed)
+                emp_seed = (random_seed * 1000) + idx
+                ep = evaluator.simulate_episode(e_id, o_id, initial_skills, policy=RecommendationPolicy.ADAPTIVE, seed=emp_seed)
                 steps.append(ep["steps_to_target"])
 
             results.append({
@@ -152,11 +154,12 @@ class AblationStudyService:
             evaluator = PolicyEvaluator(self.kg, engine, target_readiness=t, max_budget=50)
 
             steps = []
-            for _, emp in sample_emps.iterrows():
+            for idx, (_, emp) in enumerate(sample_emps.iterrows()):
                 e_id = str(emp["employee_id"])
                 o_id = str(emp["occupation_id"])
                 initial_skills = skills_by_emp.get_group(e_id).to_dict("records") if e_id in skills_by_emp.groups else []
-                ep = evaluator.simulate_episode(e_id, o_id, initial_skills, policy=RecommendationPolicy.ADAPTIVE, seed=random_seed)
+                emp_seed = (random_seed * 1000) + idx
+                ep = evaluator.simulate_episode(e_id, o_id, initial_skills, policy=RecommendationPolicy.ADAPTIVE, seed=emp_seed)
                 steps.append(ep["steps_to_target"])
 
             results.append({

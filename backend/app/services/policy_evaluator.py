@@ -168,7 +168,7 @@ class PolicyEvaluator:
             "adaptive": []
         }
 
-        for _, emp in sample_emps.iterrows():
+        for idx, (_, emp) in enumerate(sample_emps.iterrows()):
             e_id = str(emp["employee_id"])
             o_id = str(emp["occupation_id"])
 
@@ -182,20 +182,23 @@ class PolicyEvaluator:
             static_sorted = sorted(initial_gaps, key=lambda x: x["relevance_weight"], reverse=True)
             static_order = [g["skill_id"] for g in static_sorted]
 
+            # Assign a matched, independent pseudo-random seed per employee across all policies
+            emp_seed = (random_seed * 1000) + idx
+
             # 1. Policy A: Random
             res_a = self.simulate_episode(
                 e_id, o_id, initial_skills, RecommendationPolicy.RANDOM,
-                seed=random_seed + 1
+                seed=emp_seed
             )
             # 2. Policy B: Static
             res_b = self.simulate_episode(
                 e_id, o_id, initial_skills, RecommendationPolicy.STATIC,
-                seed=random_seed + 2, static_rankings=static_order
+                seed=emp_seed, static_rankings=static_order
             )
             # 3. Policy C: Adaptive
             res_c = self.simulate_episode(
                 e_id, o_id, initial_skills, RecommendationPolicy.ADAPTIVE,
-                seed=random_seed + 3
+                seed=emp_seed
             )
 
             results["random"].append(res_a)
