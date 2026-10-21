@@ -1,0 +1,93 @@
+{
+  "policy_ablations": {
+    "Variant 1: Relevance-Only": {
+      "mean_steps": 6.02,
+      "std_steps": 2.53,
+      "median_steps": 5.5,
+      "mean_hours": 108.5,
+      "success_rate": 1.0
+    },
+    "Variant 2: Relevance + Cluster": {
+      "mean_steps": 6.05,
+      "std_steps": 2.57,
+      "median_steps": 6.0,
+      "mean_hours": 109.1,
+      "success_rate": 1.0
+    },
+    "Variant 3: Relevance + Prereq": {
+      "mean_steps": 6.02,
+      "std_steps": 2.53,
+      "median_steps": 5.5,
+      "mean_hours": 108.5,
+      "success_rate": 1.0
+    },
+    "Variant 4: Full Adaptive": {
+      "mean_steps": 6.05,
+      "std_steps": 2.57,
+      "median_steps": 6.0,
+      "mean_hours": 109.1,
+      "success_rate": 1.0
+    },
+    "Variant 5: Random Baseline": {
+      "mean_steps": 8.62,
+      "std_steps": 2.27,
+      "median_steps": 9.0,
+      "mean_hours": 151.3,
+      "success_rate": 1.0
+    }
+  },
+  "sensitivity_cluster_strength": [
+    {
+      "cluster_bonus_weight_beta": 0.0,
+      "mean_steps": 6.02,
+      "std_steps": 2.53
+    },
+    {
+      "cluster_bonus_weight_beta": 0.15,
+      "mean_steps": 6.05,
+      "std_steps": 2.57
+    },
+    {
+      "cluster_bonus_weight_beta": 0.35,
+      "mean_steps": 6.05,
+      "std_steps": 2.57
+    },
+    {
+      "cluster_bonus_weight_beta": 0.6,
+      "mean_steps": 6.1,
+      "std_steps": 2.59
+    },
+    {
+      "cluster_bonus_weight_beta": 0.85,
+      "mean_steps": 6.15,
+      "std_steps": 2.59
+    }
+  ],
+  "sensitivity_readiness_target": [
+    {
+      "target_readiness": 0.7,
+      "mean_steps": 4.03,
+      "std_steps": 2.1
+    },
+    {
+      "target_readiness": 0.75,
+      "mean_steps": 4.95,
+      "std_steps": 2.33
+    },
+    {
+      "target_readiness": 0.8,
+      "mean_steps": 6.05,
+      "std_steps": 2.57
+    },
+    {
+      "target_readiness": 0.85,
+      "mean_steps": 7.3,
+      "std_steps": 2.78
+    },
+    {
+      "target_readiness": 0.9,
+      "mean_steps": 8.75,
+      "std_steps": 2.93
+    }
+  ]
+}

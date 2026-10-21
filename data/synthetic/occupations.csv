@@ -1,0 +1,41 @@
+occupation_id,title,primary_cluster_id,primary_cluster_name,secondary_cluster_id,secondary_cluster_name,source
+OCC-001,Senior Software Architect,0,Software Engineering & Architecture,3,Web & Mobile Applications,synthetic_baseline
+OCC-002,Principal Backend Engineer,1,Cloud Computing & DevOps,2,Machine Learning & AI,synthetic_baseline
+OCC-003,Systems Programmer,2,Machine Learning & AI,3,Web & Mobile Applications,synthetic_baseline
+OCC-004,Enterprise Platform Engineer,3,Web & Mobile Applications,5,Data Engineering & Databases,synthetic_baseline
+OCC-005,Core Infrastructure Developer,4,Cybersecurity & Network Defense,6,Distributed Systems & Reliability,synthetic_baseline
+OCC-006,DevOps Engineer,5,Data Engineering & Databases,7,Agile Leadership & Product Management,synthetic_baseline
+OCC-007,Cloud Solutions Architect,6,Distributed Systems & Reliability,7,Agile Leadership & Product Management,synthetic_baseline
+OCC-008,Site Reliability Engineer (SRE),7,Agile Leadership & Product Management,2,Machine Learning & AI,synthetic_baseline
+OCC-009,Kubernetes Platform Engineer,0,Software Engineering & Architecture,2,Machine Learning & AI,synthetic_baseline
+OCC-010,Cloud Security Engineer,1,Cloud Computing & DevOps,2,Machine Learning & AI,synthetic_baseline
+OCC-011,Data Scientist,2,Machine Learning & AI,5,Data Engineering & Databases,synthetic_baseline
+OCC-012,Machine Learning Engineer,3,Web & Mobile Applications,6,Distributed Systems & Reliability,synthetic_baseline
+OCC-013,AI Research Engineer,4,Cybersecurity & Network Defense,6,Distributed Systems & Reliability,synthetic_baseline
+OCC-014,MLOps Engineer,5,Data Engineering & Databases,6,Distributed Systems & Reliability,synthetic_baseline
+OCC-015,Computer Vision Specialist,6,Distributed Systems & Reliability,0,Software Engineering & Architecture,synthetic_baseline
+OCC-016,Frontend Engineer,7,Agile Leadership & Product Management,1,Cloud Computing & DevOps,synthetic_baseline
+OCC-017,Full-Stack Developer,0,Software Engineering & Architecture,1,Cloud Computing & DevOps,synthetic_baseline
+OCC-018,Mobile App Engineer (iOS/Android),1,Cloud Computing & DevOps,3,Web & Mobile Applications,synthetic_baseline
+OCC-019,UI/UX Engineer,2,Machine Learning & AI,5,Data Engineering & Databases,synthetic_baseline
+OCC-020,Design Systems Engineer,3,Web & Mobile Applications,4,Cybersecurity & Network Defense,synthetic_baseline
+OCC-021,Cybersecurity Analyst,4,Cybersecurity & Network Defense,7,Agile Leadership & Product Management,synthetic_baseline
+OCC-022,Security Operations Center (SOC) Lead,5,Data Engineering & Databases,6,Distributed Systems & Reliability,synthetic_baseline
+OCC-023,Application Security Engineer,6,Distributed Systems & Reliability,1,Cloud Computing & DevOps,synthetic_baseline
+OCC-024,Penetration Tester,7,Agile Leadership & Product Management,1,Cloud Computing & DevOps,synthetic_baseline
+OCC-025,Information Security Officer,0,Software Engineering & Architecture,1,Cloud Computing & DevOps,synthetic_baseline
+OCC-026,Data Engineer,1,Cloud Computing & DevOps,4,Cybersecurity & Network Defense,synthetic_baseline
+OCC-027,Database Administrator (DBA),2,Machine Learning & AI,3,Web & Mobile Applications,synthetic_baseline
+OCC-028,Big Data Platform Engineer,3,Web & Mobile Applications,5,Data Engineering & Databases,synthetic_baseline
+OCC-029,Analytics Engineer,4,Cybersecurity & Network Defense,5,Data Engineering & Databases,synthetic_baseline
+OCC-030,Business Intelligence Architect,5,Data Engineering & Databases,0,Software Engineering & Architecture,synthetic_baseline
+OCC-031,Distributed Systems Engineer,6,Distributed Systems & Reliability,1,Cloud Computing & DevOps,synthetic_baseline
+OCC-032,Reliability Architect,7,Agile Leadership & Product Management,2,Machine Learning & AI,synthetic_baseline
+OCC-033,Messaging Infrastructure Specialist,0,Software Engineering & Architecture,2,Machine Learning & AI,synthetic_baseline
+OCC-034,High-Throughput Systems Engineer,1,Cloud Computing & DevOps,3,Web & Mobile Applications,synthetic_baseline
+OCC-035,Edge Computing Engineer,2,Machine Learning & AI,4,Cybersecurity & Network Defense,synthetic_baseline
+OCC-036,Technical Product Manager,3,Web & Mobile Applications,6,Distributed Systems & Reliability,synthetic_baseline
+OCC-037,Engineering Manager,4,Cybersecurity & Network Defense,7,Agile Leadership & Product Management,synthetic_baseline
+OCC-038,Agile Delivery Lead,5,Data Engineering & Databases,6,Distributed Systems & Reliability,synthetic_baseline
+OCC-039,Scrum Master,6,Distributed Systems & Reliability,0,Software Engineering & Architecture,synthetic_baseline
+OCC-040,IT Governance & Compliance Manager,7,Agile Leadership & Product Management,0,Software Engineering & Architecture,synthetic_baseline

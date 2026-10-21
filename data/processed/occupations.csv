@@ -1,0 +1,11 @@
+occupation_id,title,description,source_uri,source
+OCC-001,Data Scientist,"Applies machine learning, statistical modeling, and data analysis to extract business insights.",urn:synthetic:asgp:fallback:OCC-001,synthetic_fallback
+OCC-002,Machine Learning Engineer,"Designs, builds, and deploys production machine learning systems and pipelines.",urn:synthetic:asgp:fallback:OCC-002,synthetic_fallback
+OCC-003,Cloud Solutions Architect,"Architects scalable, secure, and resilient cloud infrastructures across hybrid environments.",urn:synthetic:asgp:fallback:OCC-003,synthetic_fallback
+OCC-004,Backend Developer,"Develops robust server-side APIs, microservices, and database persistence architectures.",urn:synthetic:asgp:fallback:OCC-004,synthetic_fallback
+OCC-005,Frontend Developer,"Builds responsive, accessible, and high-performance interactive user interfaces.",urn:synthetic:asgp:fallback:OCC-005,synthetic_fallback
+OCC-006,DevOps & SRE Engineer,"Automates CI/CD pipelines, container orchestration, and system reliability monitoring.",urn:synthetic:asgp:fallback:OCC-006,synthetic_fallback
+OCC-007,Cybersecurity Analyst,"Monitors threat telemetry, designs security controls, and performs vulnerability remediation.",urn:synthetic:asgp:fallback:OCC-007,synthetic_fallback
+OCC-008,Data Engineer,"Constructs large-scale ETL/ELT data pipelines, warehouses, and streaming architectures.",urn:synthetic:asgp:fallback:OCC-008,synthetic_fallback
+OCC-009,Product Manager (Technical),"Defines technical roadmaps, stakeholder requirements, and product delivery metrics.",urn:synthetic:asgp:fallback:OCC-009,synthetic_fallback
+OCC-010,Database Administrator,"Manages database clustering, query tuning, replication, backup, and high availability.",urn:synthetic:asgp:fallback:OCC-010,synthetic_fallback

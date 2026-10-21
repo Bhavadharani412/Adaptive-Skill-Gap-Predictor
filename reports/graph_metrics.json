@@ -1,0 +1,26 @@
+{
+  "total_nodes": 260,
+  "total_edges": 1942,
+  "occupation_nodes_count": 40,
+  "skill_nodes_count": 220,
+  "generic_skills_count": 26,
+  "num_clusters": 8,
+  "cluster_distribution": {
+    "0": 29,
+    "1": 29,
+    "2": 27,
+    "3": 27,
+    "4": 27,
+    "5": 27,
+    "6": 27,
+    "7": 27
+  },
+  "graph_density": 0.028839,
+  "mean_node_degree": 7.47,
+  "max_node_degree": 22,
+  "mean_occupation_degree": 18.98,
+  "mean_skill_degree": 5.38,
+  "connected_components_count": 1,
+  "largest_component_size": 260,
+  "is_bipartite_compatible": true
+}

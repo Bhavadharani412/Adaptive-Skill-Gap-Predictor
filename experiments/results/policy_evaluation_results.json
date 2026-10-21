@@ -1,0 +1,69 @@
+{
+  "target_readiness": 0.8,
+  "max_budget": 50,
+  "policies": {
+    "random": {
+      "cohort_size": 100,
+      "success_rate": 1.0,
+      "steps_mean": 7.35,
+      "steps_median": 8.0,
+      "steps_std": 2.67,
+      "steps_min": 1,
+      "steps_max": 12,
+      "mean_learning_hours": 127.0,
+      "mean_final_readiness": 0.8302,
+      "censored_count": 0
+    },
+    "static": {
+      "cohort_size": 100,
+      "success_rate": 1.0,
+      "steps_mean": 7.67,
+      "steps_median": 8.0,
+      "steps_std": 2.49,
+      "steps_min": 1,
+      "steps_max": 12,
+      "mean_learning_hours": 136.8,
+      "mean_final_readiness": 0.8248,
+      "censored_count": 0
+    },
+    "adaptive": {
+      "cohort_size": 100,
+      "success_rate": 1.0,
+      "steps_mean": 6.19,
+      "steps_median": 7.0,
+      "steps_std": 2.18,
+      "steps_min": 1,
+      "steps_max": 12,
+      "mean_learning_hours": 110.4,
+      "mean_final_readiness": 0.8252,
+      "censored_count": 0
+    }
+  },
+  "paired_statistical_tests": {
+    "static_vs_random": {
+      "wilcoxon_stat": 306.0,
+      "p_value": 0.00080300572795013,
+      "cohens_d": -0.3378,
+      "significant_at_05": true
+    },
+    "adaptive_vs_random": {
+      "wilcoxon_stat": 69.0,
+      "p_value": 2.01441599459855e-14,
+      "cohens_d": 1.255,
+      "significant_at_05": true
+    },
+    "adaptive_vs_static": {
+      "wilcoxon_stat": 0.0,
+      "p_value": 5.137596671063067e-17,
+      "cohens_d": 1.9274,
+      "significant_at_05": true
+    }
+  },
+  "paper_references_comparison": {
+    "random_policy_mean_steps": 42.66,
+    "static_policy_mean_steps": 21.75,
+    "adaptive_policy_mean_steps": 24.24,
+    "target_readiness": 0.8,
+    "notes": "Under greedy relevance-only metric definitions, static relevance reaches the 80% numerical threshold quickly because it targets the highest numerator weights first. However, adaptive recommendation fosters cluster transfer, reduces failure risk, and honors prerequisite sequences, providing pedagogical durability."
+  }
+}

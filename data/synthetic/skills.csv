@@ -1,0 +1,221 @@
+skill_id,name,cluster_id,cluster_name,is_generic,complexity,source
+SKL-001,Git Version Control,0,Software Engineering & Architecture,True,0.61,synthetic_baseline
+SKL-002,Linux Command Line Basics,1,Cloud Computing & DevOps,True,0.48,synthetic_baseline
+SKL-003,Unit Testing Fundamentals,2,Machine Learning & AI,True,0.64,synthetic_baseline
+SKL-004,Code Review Principles,3,Web & Mobile Applications,True,0.58,synthetic_baseline
+SKL-005,Agile & Scrum Methodologies,4,Cybersecurity & Network Defense,True,0.34,synthetic_baseline
+SKL-006,Technical Writing & RFCs,5,Data Engineering & Databases,True,0.69,synthetic_baseline
+SKL-007,Problem Solving & Debugging,6,Distributed Systems & Reliability,True,0.6,synthetic_baseline
+SKL-008,REST API Communication,7,Agile Leadership & Product Management,True,0.61,synthetic_baseline
+SKL-009,Continuous Integration Basics,0,Software Engineering & Architecture,True,0.35,synthetic_baseline
+SKL-010,Container Basics (Docker),1,Cloud Computing & DevOps,True,0.48,synthetic_baseline
+SKL-011,Database Querying (SQL),2,Machine Learning & AI,True,0.45,synthetic_baseline
+SKL-012,Security Awareness & Hygiene,3,Web & Mobile Applications,True,0.67,synthetic_baseline
+SKL-013,Data Structures & Algorithms,4,Cybersecurity & Network Defense,True,0.56,synthetic_baseline
+SKL-014,Clean Code & Refactoring,5,Data Engineering & Databases,True,0.63,synthetic_baseline
+SKL-015,Design Patterns,6,Distributed Systems & Reliability,True,0.48,synthetic_baseline
+SKL-016,Monitoring & Logging Basics,7,Agile Leadership & Product Management,True,0.39,synthetic_baseline
+SKL-017,Time Management & Sprint Planning,0,Software Engineering & Architecture,True,0.52,synthetic_baseline
+SKL-018,Stakeholder Communication,1,Cloud Computing & DevOps,True,0.33,synthetic_baseline
+SKL-019,Incident Triage & Root Cause,2,Machine Learning & AI,True,0.63,synthetic_baseline
+SKL-020,Performance Benchmarking,3,Web & Mobile Applications,True,0.55,synthetic_baseline
+SKL-021,API Documentation,4,Cybersecurity & Network Defense,True,0.6,synthetic_baseline
+SKL-022,CI/CD Pipeline Usage,5,Data Engineering & Databases,True,0.44,synthetic_baseline
+SKL-023,Cloud Fundamentals,6,Distributed Systems & Reliability,True,0.69,synthetic_baseline
+SKL-024,Object-Oriented Programming,7,Agile Leadership & Product Management,True,0.66,synthetic_baseline
+SKL-025,Asynchronous Programming,0,Software Engineering & Architecture,True,0.61,synthetic_baseline
+SKL-026,Data Serialization (JSON/YAML),1,Cloud Computing & DevOps,True,0.38,synthetic_baseline
+SKL-027,System Architecture,0,Software Engineering & Architecture,False,0.71,synthetic_baseline
+SKL-028,Microservices Design,0,Software Engineering & Architecture,False,0.52,synthetic_baseline
+SKL-029,Domain-Driven Design,0,Software Engineering & Architecture,False,0.57,synthetic_baseline
+SKL-030,Concurrency Patterns,0,Software Engineering & Architecture,False,0.81,synthetic_baseline
+SKL-031,IPC Mechanisms,0,Software Engineering & Architecture,False,0.84,synthetic_baseline
+SKL-032,Design System Implementation,0,Software Engineering & Architecture,False,0.94,synthetic_baseline
+SKL-033,Dependency Injection,0,Software Engineering & Architecture,False,0.65,synthetic_baseline
+SKL-034,Memory Management,0,Software Engineering & Architecture,False,0.67,synthetic_baseline
+SKL-035,Compilers & Interpreters,0,Software Engineering & Architecture,False,0.71,synthetic_baseline
+SKL-036,System Architecture Advanced Practice 10,0,Software Engineering & Architecture,False,0.59,synthetic_baseline
+SKL-037,Microservices Design Advanced Practice 11,0,Software Engineering & Architecture,False,0.56,synthetic_baseline
+SKL-038,Domain-Driven Design Advanced Practice 12,0,Software Engineering & Architecture,False,0.71,synthetic_baseline
+SKL-039,Concurrency Patterns Advanced Practice 13,0,Software Engineering & Architecture,False,0.6,synthetic_baseline
+SKL-040,IPC Mechanisms Advanced Practice 14,0,Software Engineering & Architecture,False,0.8,synthetic_baseline
+SKL-041,Design System Implementation Advanced Practice 15,0,Software Engineering & Architecture,False,0.7,synthetic_baseline
+SKL-042,Dependency Injection Advanced Practice 16,0,Software Engineering & Architecture,False,0.87,synthetic_baseline
+SKL-043,Memory Management Advanced Practice 17,0,Software Engineering & Architecture,False,0.82,synthetic_baseline
+SKL-044,Compilers & Interpreters Advanced Practice 18,0,Software Engineering & Architecture,False,0.64,synthetic_baseline
+SKL-045,System Architecture Advanced Practice 19,0,Software Engineering & Architecture,False,0.87,synthetic_baseline
+SKL-046,Microservices Design Advanced Practice 20,0,Software Engineering & Architecture,False,0.86,synthetic_baseline
+SKL-047,Domain-Driven Design Advanced Practice 21,0,Software Engineering & Architecture,False,0.67,synthetic_baseline
+SKL-048,Concurrency Patterns Advanced Practice 22,0,Software Engineering & Architecture,False,0.63,synthetic_baseline
+SKL-049,IPC Mechanisms Advanced Practice 23,0,Software Engineering & Architecture,False,0.81,synthetic_baseline
+SKL-050,Design System Implementation Advanced Practice 24,0,Software Engineering & Architecture,False,0.56,synthetic_baseline
+SKL-051,Dependency Injection Advanced Practice 25,0,Software Engineering & Architecture,False,0.59,synthetic_baseline
+SKL-052,Kubernetes Cluster Admin,1,Cloud Computing & DevOps,False,0.5,synthetic_baseline
+SKL-053,Terraform IaC,1,Cloud Computing & DevOps,False,0.85,synthetic_baseline
+SKL-054,AWS Infrastructure,1,Cloud Computing & DevOps,False,0.8,synthetic_baseline
+SKL-055,Azure Cloud Services,1,Cloud Computing & DevOps,False,0.82,synthetic_baseline
+SKL-056,GCP Core Services,1,Cloud Computing & DevOps,False,0.85,synthetic_baseline
+SKL-057,Ansible Automation,1,Cloud Computing & DevOps,False,0.71,synthetic_baseline
+SKL-058,Prometheus & Grafana,1,Cloud Computing & DevOps,False,0.76,synthetic_baseline
+SKL-059,Helm Chart Packaging,1,Cloud Computing & DevOps,False,0.56,synthetic_baseline
+SKL-060,Service Mesh (Istio),1,Cloud Computing & DevOps,False,0.55,synthetic_baseline
+SKL-061,Kubernetes Cluster Admin Advanced Practice 10,1,Cloud Computing & DevOps,False,0.8,synthetic_baseline
+SKL-062,Terraform IaC Advanced Practice 11,1,Cloud Computing & DevOps,False,0.71,synthetic_baseline
+SKL-063,AWS Infrastructure Advanced Practice 12,1,Cloud Computing & DevOps,False,0.75,synthetic_baseline
+SKL-064,Azure Cloud Services Advanced Practice 13,1,Cloud Computing & DevOps,False,0.84,synthetic_baseline
+SKL-065,GCP Core Services Advanced Practice 14,1,Cloud Computing & DevOps,False,0.79,synthetic_baseline
+SKL-066,Ansible Automation Advanced Practice 15,1,Cloud Computing & DevOps,False,0.75,synthetic_baseline
+SKL-067,Prometheus & Grafana Advanced Practice 16,1,Cloud Computing & DevOps,False,0.75,synthetic_baseline
+SKL-068,Helm Chart Packaging Advanced Practice 17,1,Cloud Computing & DevOps,False,0.64,synthetic_baseline
+SKL-069,Service Mesh (Istio) Advanced Practice 18,1,Cloud Computing & DevOps,False,0.51,synthetic_baseline
+SKL-070,Kubernetes Cluster Admin Advanced Practice 19,1,Cloud Computing & DevOps,False,0.7,synthetic_baseline
+SKL-071,Terraform IaC Advanced Practice 20,1,Cloud Computing & DevOps,False,0.6,synthetic_baseline
+SKL-072,AWS Infrastructure Advanced Practice 21,1,Cloud Computing & DevOps,False,0.68,synthetic_baseline
+SKL-073,Azure Cloud Services Advanced Practice 22,1,Cloud Computing & DevOps,False,0.88,synthetic_baseline
+SKL-074,GCP Core Services Advanced Practice 23,1,Cloud Computing & DevOps,False,0.61,synthetic_baseline
+SKL-075,Ansible Automation Advanced Practice 24,1,Cloud Computing & DevOps,False,0.53,synthetic_baseline
+SKL-076,Prometheus & Grafana Advanced Practice 25,1,Cloud Computing & DevOps,False,0.63,synthetic_baseline
+SKL-077,Scikit-Learn Modeling,2,Machine Learning & AI,False,0.63,synthetic_baseline
+SKL-078,PyTorch Deep Learning,2,Machine Learning & AI,False,0.8,synthetic_baseline
+SKL-079,Feature Engineering,2,Machine Learning & AI,False,0.75,synthetic_baseline
+SKL-080,Model Evaluation & Drift,2,Machine Learning & AI,False,0.85,synthetic_baseline
+SKL-081,NLP Transformer Pipelines,2,Machine Learning & AI,False,0.8,synthetic_baseline
+SKL-082,Computer Vision CNNs,2,Machine Learning & AI,False,0.68,synthetic_baseline
+SKL-083,MLOps & MLflow,2,Machine Learning & AI,False,0.87,synthetic_baseline
+SKL-084,Hyperparameter Tuning,2,Machine Learning & AI,False,0.58,synthetic_baseline
+SKL-085,Bayesian Optimization,2,Machine Learning & AI,False,0.51,synthetic_baseline
+SKL-086,Scikit-Learn Modeling Advanced Practice 10,2,Machine Learning & AI,False,0.54,synthetic_baseline
+SKL-087,PyTorch Deep Learning Advanced Practice 11,2,Machine Learning & AI,False,0.83,synthetic_baseline
+SKL-088,Feature Engineering Advanced Practice 12,2,Machine Learning & AI,False,0.71,synthetic_baseline
+SKL-089,Model Evaluation & Drift Advanced Practice 13,2,Machine Learning & AI,False,0.57,synthetic_baseline
+SKL-090,NLP Transformer Pipelines Advanced Practice 14,2,Machine Learning & AI,False,0.73,synthetic_baseline
+SKL-091,Computer Vision CNNs Advanced Practice 15,2,Machine Learning & AI,False,0.57,synthetic_baseline
+SKL-092,MLOps & MLflow Advanced Practice 16,2,Machine Learning & AI,False,0.81,synthetic_baseline
+SKL-093,Hyperparameter Tuning Advanced Practice 17,2,Machine Learning & AI,False,0.7,synthetic_baseline
+SKL-094,Bayesian Optimization Advanced Practice 18,2,Machine Learning & AI,False,0.67,synthetic_baseline
+SKL-095,Scikit-Learn Modeling Advanced Practice 19,2,Machine Learning & AI,False,0.64,synthetic_baseline
+SKL-096,PyTorch Deep Learning Advanced Practice 20,2,Machine Learning & AI,False,0.78,synthetic_baseline
+SKL-097,Feature Engineering Advanced Practice 21,2,Machine Learning & AI,False,0.66,synthetic_baseline
+SKL-098,Model Evaluation & Drift Advanced Practice 22,2,Machine Learning & AI,False,0.54,synthetic_baseline
+SKL-099,NLP Transformer Pipelines Advanced Practice 23,2,Machine Learning & AI,False,0.55,synthetic_baseline
+SKL-100,Computer Vision CNNs Advanced Practice 24,2,Machine Learning & AI,False,0.93,synthetic_baseline
+SKL-101,React UI Development,3,Web & Mobile Applications,False,0.91,synthetic_baseline
+SKL-102,TypeScript Type Systems,3,Web & Mobile Applications,False,0.81,synthetic_baseline
+SKL-103,State Management (Redux/Zustand),3,Web & Mobile Applications,False,0.62,synthetic_baseline
+SKL-104,CSS Grid & Responsive Design,3,Web & Mobile Applications,False,0.94,synthetic_baseline
+SKL-105,GraphQL API Clients,3,Web & Mobile Applications,False,0.85,synthetic_baseline
+SKL-106,Web Performance Optimization,3,Web & Mobile Applications,False,0.82,synthetic_baseline
+SKL-107,Progressive Web Apps,3,Web & Mobile Applications,False,0.7,synthetic_baseline
+SKL-108,Accessibility (WCAG),3,Web & Mobile Applications,False,0.62,synthetic_baseline
+SKL-109,Next.js Framework,3,Web & Mobile Applications,False,0.54,synthetic_baseline
+SKL-110,React UI Development Advanced Practice 10,3,Web & Mobile Applications,False,0.91,synthetic_baseline
+SKL-111,TypeScript Type Systems Advanced Practice 11,3,Web & Mobile Applications,False,0.71,synthetic_baseline
+SKL-112,State Management (Redux/Zustand) Advanced Practice 12,3,Web & Mobile Applications,False,0.59,synthetic_baseline
+SKL-113,CSS Grid & Responsive Design Advanced Practice 13,3,Web & Mobile Applications,False,0.64,synthetic_baseline
+SKL-114,GraphQL API Clients Advanced Practice 14,3,Web & Mobile Applications,False,0.76,synthetic_baseline
+SKL-115,Web Performance Optimization Advanced Practice 15,3,Web & Mobile Applications,False,0.58,synthetic_baseline
+SKL-116,Progressive Web Apps Advanced Practice 16,3,Web & Mobile Applications,False,0.89,synthetic_baseline
+SKL-117,Accessibility (WCAG) Advanced Practice 17,3,Web & Mobile Applications,False,0.84,synthetic_baseline
+SKL-118,Next.js Framework Advanced Practice 18,3,Web & Mobile Applications,False,0.82,synthetic_baseline
+SKL-119,React UI Development Advanced Practice 19,3,Web & Mobile Applications,False,0.69,synthetic_baseline
+SKL-120,TypeScript Type Systems Advanced Practice 20,3,Web & Mobile Applications,False,0.78,synthetic_baseline
+SKL-121,State Management (Redux/Zustand) Advanced Practice 21,3,Web & Mobile Applications,False,0.76,synthetic_baseline
+SKL-122,CSS Grid & Responsive Design Advanced Practice 22,3,Web & Mobile Applications,False,0.79,synthetic_baseline
+SKL-123,GraphQL API Clients Advanced Practice 23,3,Web & Mobile Applications,False,0.54,synthetic_baseline
+SKL-124,Web Performance Optimization Advanced Practice 24,3,Web & Mobile Applications,False,0.69,synthetic_baseline
+SKL-125,OWASP Top 10 Mitigation,4,Cybersecurity & Network Defense,False,0.52,synthetic_baseline
+SKL-126,Penetration Testing,4,Cybersecurity & Network Defense,False,0.72,synthetic_baseline
+SKL-127,OAuth2 & OIDC Security,4,Cybersecurity & Network Defense,False,0.65,synthetic_baseline
+SKL-128,PKI & Certificate Management,4,Cybersecurity & Network Defense,False,0.57,synthetic_baseline
+SKL-129,SIEM Telemetry & Splunk,4,Cybersecurity & Network Defense,False,0.55,synthetic_baseline
+SKL-130,Network Packet Inspection,4,Cybersecurity & Network Defense,False,0.76,synthetic_baseline
+SKL-131,Threat Modeling,4,Cybersecurity & Network Defense,False,0.58,synthetic_baseline
+SKL-132,Zero-Trust Architecture,4,Cybersecurity & Network Defense,False,0.92,synthetic_baseline
+SKL-133,Vulnerability Remediation,4,Cybersecurity & Network Defense,False,0.76,synthetic_baseline
+SKL-134,OWASP Top 10 Mitigation Advanced Practice 10,4,Cybersecurity & Network Defense,False,0.66,synthetic_baseline
+SKL-135,Penetration Testing Advanced Practice 11,4,Cybersecurity & Network Defense,False,0.77,synthetic_baseline
+SKL-136,OAuth2 & OIDC Security Advanced Practice 12,4,Cybersecurity & Network Defense,False,0.51,synthetic_baseline
+SKL-137,PKI & Certificate Management Advanced Practice 13,4,Cybersecurity & Network Defense,False,0.93,synthetic_baseline
+SKL-138,SIEM Telemetry & Splunk Advanced Practice 14,4,Cybersecurity & Network Defense,False,0.72,synthetic_baseline
+SKL-139,Network Packet Inspection Advanced Practice 15,4,Cybersecurity & Network Defense,False,0.85,synthetic_baseline
+SKL-140,Threat Modeling Advanced Practice 16,4,Cybersecurity & Network Defense,False,0.54,synthetic_baseline
+SKL-141,Zero-Trust Architecture Advanced Practice 17,4,Cybersecurity & Network Defense,False,0.72,synthetic_baseline
+SKL-142,Vulnerability Remediation Advanced Practice 18,4,Cybersecurity & Network Defense,False,0.72,synthetic_baseline
+SKL-143,OWASP Top 10 Mitigation Advanced Practice 19,4,Cybersecurity & Network Defense,False,0.92,synthetic_baseline
+SKL-144,Penetration Testing Advanced Practice 20,4,Cybersecurity & Network Defense,False,0.76,synthetic_baseline
+SKL-145,OAuth2 & OIDC Security Advanced Practice 21,4,Cybersecurity & Network Defense,False,0.71,synthetic_baseline
+SKL-146,PKI & Certificate Management Advanced Practice 22,4,Cybersecurity & Network Defense,False,0.62,synthetic_baseline
+SKL-147,SIEM Telemetry & Splunk Advanced Practice 23,4,Cybersecurity & Network Defense,False,0.65,synthetic_baseline
+SKL-148,Network Packet Inspection Advanced Practice 24,4,Cybersecurity & Network Defense,False,0.73,synthetic_baseline
+SKL-149,PostgreSQL Administration,5,Data Engineering & Databases,False,0.7,synthetic_baseline
+SKL-150,Apache Kafka Streaming,5,Data Engineering & Databases,False,0.51,synthetic_baseline
+SKL-151,Apache Spark Distributed ETL,5,Data Engineering & Databases,False,0.87,synthetic_baseline
+SKL-152,Data Warehousing (Snowflake),5,Data Engineering & Databases,False,0.9,synthetic_baseline
+SKL-153,Database Indexing & Tuning,5,Data Engineering & Databases,False,0.56,synthetic_baseline
+SKL-154,NoSQL Document Stores,5,Data Engineering & Databases,False,0.75,synthetic_baseline
+SKL-155,Data Quality & Great Expectations,5,Data Engineering & Databases,False,0.55,synthetic_baseline
+SKL-156,dbt Transformations,5,Data Engineering & Databases,False,0.8,synthetic_baseline
+SKL-157,Data Lakehouse Design,5,Data Engineering & Databases,False,0.63,synthetic_baseline
+SKL-158,PostgreSQL Administration Advanced Practice 10,5,Data Engineering & Databases,False,0.8,synthetic_baseline
+SKL-159,Apache Kafka Streaming Advanced Practice 11,5,Data Engineering & Databases,False,0.83,synthetic_baseline
+SKL-160,Apache Spark Distributed ETL Advanced Practice 12,5,Data Engineering & Databases,False,0.85,synthetic_baseline
+SKL-161,Data Warehousing (Snowflake) Advanced Practice 13,5,Data Engineering & Databases,False,0.55,synthetic_baseline
+SKL-162,Database Indexing & Tuning Advanced Practice 14,5,Data Engineering & Databases,False,0.91,synthetic_baseline
+SKL-163,NoSQL Document Stores Advanced Practice 15,5,Data Engineering & Databases,False,0.6,synthetic_baseline
+SKL-164,Data Quality & Great Expectations Advanced Practice 16,5,Data Engineering & Databases,False,0.52,synthetic_baseline
+SKL-165,dbt Transformations Advanced Practice 17,5,Data Engineering & Databases,False,0.75,synthetic_baseline
+SKL-166,Data Lakehouse Design Advanced Practice 18,5,Data Engineering & Databases,False,0.67,synthetic_baseline
+SKL-167,PostgreSQL Administration Advanced Practice 19,5,Data Engineering & Databases,False,0.87,synthetic_baseline
+SKL-168,Apache Kafka Streaming Advanced Practice 20,5,Data Engineering & Databases,False,0.86,synthetic_baseline
+SKL-169,Apache Spark Distributed ETL Advanced Practice 21,5,Data Engineering & Databases,False,0.64,synthetic_baseline
+SKL-170,Data Warehousing (Snowflake) Advanced Practice 22,5,Data Engineering & Databases,False,0.93,synthetic_baseline
+SKL-171,Database Indexing & Tuning Advanced Practice 23,5,Data Engineering & Databases,False,0.63,synthetic_baseline
+SKL-172,NoSQL Document Stores Advanced Practice 24,5,Data Engineering & Databases,False,0.73,synthetic_baseline
+SKL-173,Distributed Consensus (Raft),6,Distributed Systems & Reliability,False,0.62,synthetic_baseline
+SKL-174,gRPC & Protobuf RPCs,6,Distributed Systems & Reliability,False,0.92,synthetic_baseline
+SKL-175,High Availability & Clustering,6,Distributed Systems & Reliability,False,0.57,synthetic_baseline
+SKL-176,Distributed Cache (Redis),6,Distributed Systems & Reliability,False,0.52,synthetic_baseline
+SKL-177,Chaos Engineering,6,Distributed Systems & Reliability,False,0.7,synthetic_baseline
+SKL-178,Rate Limiting & Circuit Breaking,6,Distributed Systems & Reliability,False,0.95,synthetic_baseline
+SKL-179,Message Queueing (RabbitMQ),6,Distributed Systems & Reliability,False,0.9,synthetic_baseline
+SKL-180,Disaster Recovery,6,Distributed Systems & Reliability,False,0.84,synthetic_baseline
+SKL-181,SRE SLO/SLI Management,6,Distributed Systems & Reliability,False,0.9,synthetic_baseline
+SKL-182,Distributed Consensus (Raft) Advanced Practice 10,6,Distributed Systems & Reliability,False,0.9,synthetic_baseline
+SKL-183,gRPC & Protobuf RPCs Advanced Practice 11,6,Distributed Systems & Reliability,False,0.73,synthetic_baseline
+SKL-184,High Availability & Clustering Advanced Practice 12,6,Distributed Systems & Reliability,False,0.64,synthetic_baseline
+SKL-185,Distributed Cache (Redis) Advanced Practice 13,6,Distributed Systems & Reliability,False,0.85,synthetic_baseline
+SKL-186,Chaos Engineering Advanced Practice 14,6,Distributed Systems & Reliability,False,0.8,synthetic_baseline
+SKL-187,Rate Limiting & Circuit Breaking Advanced Practice 15,6,Distributed Systems & Reliability,False,0.67,synthetic_baseline
+SKL-188,Message Queueing (RabbitMQ) Advanced Practice 16,6,Distributed Systems & Reliability,False,0.54,synthetic_baseline
+SKL-189,Disaster Recovery Advanced Practice 17,6,Distributed Systems & Reliability,False,0.84,synthetic_baseline
+SKL-190,SRE SLO/SLI Management Advanced Practice 18,6,Distributed Systems & Reliability,False,0.62,synthetic_baseline
+SKL-191,Distributed Consensus (Raft) Advanced Practice 19,6,Distributed Systems & Reliability,False,0.92,synthetic_baseline
+SKL-192,gRPC & Protobuf RPCs Advanced Practice 20,6,Distributed Systems & Reliability,False,0.61,synthetic_baseline
+SKL-193,High Availability & Clustering Advanced Practice 21,6,Distributed Systems & Reliability,False,0.56,synthetic_baseline
+SKL-194,Distributed Cache (Redis) Advanced Practice 22,6,Distributed Systems & Reliability,False,0.87,synthetic_baseline
+SKL-195,Chaos Engineering Advanced Practice 23,6,Distributed Systems & Reliability,False,0.57,synthetic_baseline
+SKL-196,Rate Limiting & Circuit Breaking Advanced Practice 24,6,Distributed Systems & Reliability,False,0.58,synthetic_baseline
+SKL-197,Product Backlog Prioritization,7,Agile Leadership & Product Management,False,0.77,synthetic_baseline
+SKL-198,OKRs & Metric Definition,7,Agile Leadership & Product Management,False,0.89,synthetic_baseline
+SKL-199,Sprint Retrospectives,7,Agile Leadership & Product Management,False,0.59,synthetic_baseline
+SKL-200,Release Management,7,Agile Leadership & Product Management,False,0.64,synthetic_baseline
+SKL-201,Cost Governance & FinOps,7,Agile Leadership & Product Management,False,0.85,synthetic_baseline
+SKL-202,Engineering Mentorship,7,Agile Leadership & Product Management,False,0.94,synthetic_baseline
+SKL-203,Vendor Risk Assessment,7,Agile Leadership & Product Management,False,0.73,synthetic_baseline
+SKL-204,Cross-Functional Alignment,7,Agile Leadership & Product Management,False,0.56,synthetic_baseline
+SKL-205,Compliance Auditing,7,Agile Leadership & Product Management,False,0.51,synthetic_baseline
+SKL-206,Product Backlog Prioritization Advanced Practice 10,7,Agile Leadership & Product Management,False,0.6,synthetic_baseline
+SKL-207,OKRs & Metric Definition Advanced Practice 11,7,Agile Leadership & Product Management,False,0.56,synthetic_baseline
+SKL-208,Sprint Retrospectives Advanced Practice 12,7,Agile Leadership & Product Management,False,0.8,synthetic_baseline
+SKL-209,Release Management Advanced Practice 13,7,Agile Leadership & Product Management,False,0.55,synthetic_baseline
+SKL-210,Cost Governance & FinOps Advanced Practice 14,7,Agile Leadership & Product Management,False,0.73,synthetic_baseline
+SKL-211,Engineering Mentorship Advanced Practice 15,7,Agile Leadership & Product Management,False,0.81,synthetic_baseline
+SKL-212,Vendor Risk Assessment Advanced Practice 16,7,Agile Leadership & Product Management,False,0.76,synthetic_baseline
+SKL-213,Cross-Functional Alignment Advanced Practice 17,7,Agile Leadership & Product Management,False,0.59,synthetic_baseline
+SKL-214,Compliance Auditing Advanced Practice 18,7,Agile Leadership & Product Management,False,0.86,synthetic_baseline
+SKL-215,Product Backlog Prioritization Advanced Practice 19,7,Agile Leadership & Product Management,False,0.82,synthetic_baseline
+SKL-216,OKRs & Metric Definition Advanced Practice 20,7,Agile Leadership & Product Management,False,0.83,synthetic_baseline
+SKL-217,Sprint Retrospectives Advanced Practice 21,7,Agile Leadership & Product Management,False,0.56,synthetic_baseline
+SKL-218,Release Management Advanced Practice 22,7,Agile Leadership & Product Management,False,0.56,synthetic_baseline
+SKL-219,Cost Governance & FinOps Advanced Practice 23,7,Agile Leadership & Product Management,False,0.92,synthetic_baseline
+SKL-220,Engineering Mentorship Advanced Practice 24,7,Agile Leadership & Product Management,False,0.68,synthetic_baseline

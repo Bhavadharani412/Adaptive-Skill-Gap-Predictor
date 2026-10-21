@@ -1,0 +1,61 @@
+skill_id,name,skill_type,cluster_id,cluster_name,is_generic,source_uri,source
+SKL-001,Python Programming,skill/competence,0,Machine Learning & AI,True,urn:synthetic:asgp:fallback:SKL-001,synthetic_fallback
+SKL-002,Scikit-Learn & Classical ML,skill/competence,0,Machine Learning & AI,False,urn:synthetic:asgp:fallback:SKL-002,synthetic_fallback
+SKL-003,Deep Learning (PyTorch),skill/competence,0,Machine Learning & AI,False,urn:synthetic:asgp:fallback:SKL-003,synthetic_fallback
+SKL-004,Feature Engineering,skill/competence,0,Machine Learning & AI,False,urn:synthetic:asgp:fallback:SKL-004,synthetic_fallback
+SKL-005,Model Evaluation & Metrics,skill/competence,0,Machine Learning & AI,False,urn:synthetic:asgp:fallback:SKL-005,synthetic_fallback
+SKL-006,Natural Language Processing,skill/competence,0,Machine Learning & AI,False,urn:synthetic:asgp:fallback:SKL-006,synthetic_fallback
+SKL-007,Computer Vision,skill/competence,0,Machine Learning & AI,False,urn:synthetic:asgp:fallback:SKL-007,synthetic_fallback
+SKL-008,MLOps & Model Registry,skill/competence,0,Machine Learning & AI,False,urn:synthetic:asgp:fallback:SKL-008,synthetic_fallback
+SKL-009,Hyperparameter Optimization,skill/competence,0,Machine Learning & AI,False,urn:synthetic:asgp:fallback:SKL-009,synthetic_fallback
+SKL-010,Statistical Hypothesis Testing,knowledge,0,Machine Learning & AI,False,urn:synthetic:asgp:fallback:SKL-010,synthetic_fallback
+SKL-011,Docker Containerization,skill/competence,1,Cloud & Infrastructure,True,urn:synthetic:asgp:fallback:SKL-011,synthetic_fallback
+SKL-012,Kubernetes Orchestration,skill/competence,1,Cloud & Infrastructure,False,urn:synthetic:asgp:fallback:SKL-012,synthetic_fallback
+SKL-013,AWS Cloud Services,skill/competence,1,Cloud & Infrastructure,False,urn:synthetic:asgp:fallback:SKL-013,synthetic_fallback
+SKL-014,Terraform Infrastructure as Code,skill/competence,1,Cloud & Infrastructure,False,urn:synthetic:asgp:fallback:SKL-014,synthetic_fallback
+SKL-015,Linux System Administration,skill/competence,1,Cloud & Infrastructure,True,urn:synthetic:asgp:fallback:SKL-015,synthetic_fallback
+SKL-016,Networking & DNS Basics,knowledge,1,Cloud & Infrastructure,False,urn:synthetic:asgp:fallback:SKL-016,synthetic_fallback
+SKL-017,Serverless Architecture,skill/competence,1,Cloud & Infrastructure,False,urn:synthetic:asgp:fallback:SKL-017,synthetic_fallback
+SKL-018,Cloud Cost Optimization,skill/competence,1,Cloud & Infrastructure,False,urn:synthetic:asgp:fallback:SKL-018,synthetic_fallback
+SKL-019,Distributed Systems Design,skill/competence,1,Cloud & Infrastructure,False,urn:synthetic:asgp:fallback:SKL-019,synthetic_fallback
+SKL-020,Load Balancing & Auto-scaling,skill/competence,1,Cloud & Infrastructure,False,urn:synthetic:asgp:fallback:SKL-020,synthetic_fallback
+SKL-021,REST API Development,skill/competence,2,Software Engineering & APIs,True,urn:synthetic:asgp:fallback:SKL-021,synthetic_fallback
+SKL-022,FastAPI Framework,skill/competence,2,Software Engineering & APIs,False,urn:synthetic:asgp:fallback:SKL-022,synthetic_fallback
+SKL-023,TypeScript & JavaScript,skill/competence,2,Software Engineering & APIs,False,urn:synthetic:asgp:fallback:SKL-023,synthetic_fallback
+SKL-024,React Web Development,skill/competence,2,Software Engineering & APIs,False,urn:synthetic:asgp:fallback:SKL-024,synthetic_fallback
+SKL-025,Unit & Integration Testing,knowledge,2,Software Engineering & APIs,True,urn:synthetic:asgp:fallback:SKL-025,synthetic_fallback
+SKL-026,Object-Oriented Design,skill/competence,2,Software Engineering & APIs,False,urn:synthetic:asgp:fallback:SKL-026,synthetic_fallback
+SKL-027,Microservice Patterns,skill/competence,2,Software Engineering & APIs,False,urn:synthetic:asgp:fallback:SKL-027,synthetic_fallback
+SKL-028,Git Version Control,skill/competence,2,Software Engineering & APIs,True,urn:synthetic:asgp:fallback:SKL-028,synthetic_fallback
+SKL-029,GraphQL API Design,skill/competence,2,Software Engineering & APIs,False,urn:synthetic:asgp:fallback:SKL-029,synthetic_fallback
+SKL-030,Code Profiling & Benchmarking,skill/competence,2,Software Engineering & APIs,False,urn:synthetic:asgp:fallback:SKL-030,synthetic_fallback
+SKL-031,SQL Query Optimization,skill/competence,3,Data Engineering & Analytics,True,urn:synthetic:asgp:fallback:SKL-031,synthetic_fallback
+SKL-032,PostgreSQL Administration,skill/competence,3,Data Engineering & Analytics,False,urn:synthetic:asgp:fallback:SKL-032,synthetic_fallback
+SKL-033,Apache Spark Distributed Computing,skill/competence,3,Data Engineering & Analytics,False,urn:synthetic:asgp:fallback:SKL-033,synthetic_fallback
+SKL-034,ETL Pipeline Orchestration,skill/competence,3,Data Engineering & Analytics,False,urn:synthetic:asgp:fallback:SKL-034,synthetic_fallback
+SKL-035,Data Warehousing (Snowflake),skill/competence,3,Data Engineering & Analytics,False,urn:synthetic:asgp:fallback:SKL-035,synthetic_fallback
+SKL-036,Apache Kafka Event Streaming,skill/competence,3,Data Engineering & Analytics,False,urn:synthetic:asgp:fallback:SKL-036,synthetic_fallback
+SKL-037,Data Quality Validation,skill/competence,3,Data Engineering & Analytics,False,urn:synthetic:asgp:fallback:SKL-037,synthetic_fallback
+SKL-038,Pandas Data Manipulation,skill/competence,3,Data Engineering & Analytics,True,urn:synthetic:asgp:fallback:SKL-038,synthetic_fallback
+SKL-039,NoSQL Document Databases,skill/competence,3,Data Engineering & Analytics,False,urn:synthetic:asgp:fallback:SKL-039,synthetic_fallback
+SKL-040,Business Intelligence Dashboards,skill/competence,3,Data Engineering & Analytics,False,urn:synthetic:asgp:fallback:SKL-040,synthetic_fallback
+SKL-041,Application Security (OWASP Top 10),skill/competence,4,Security & Compliance,True,urn:synthetic:asgp:fallback:SKL-041,synthetic_fallback
+SKL-042,OAuth2 & JWT Authentication,skill/competence,4,Security & Compliance,False,urn:synthetic:asgp:fallback:SKL-042,synthetic_fallback
+SKL-043,Vulnerability Scanning & SAST,skill/competence,4,Security & Compliance,False,urn:synthetic:asgp:fallback:SKL-043,synthetic_fallback
+SKL-044,Cryptographic Protocols & TLS,skill/competence,4,Security & Compliance,False,urn:synthetic:asgp:fallback:SKL-044,synthetic_fallback
+SKL-045,Identity & Access Management (IAM),skill/competence,4,Security & Compliance,False,urn:synthetic:asgp:fallback:SKL-045,synthetic_fallback
+SKL-046,Incident Response & Forensics,skill/competence,4,Security & Compliance,False,urn:synthetic:asgp:fallback:SKL-046,synthetic_fallback
+SKL-047,Security Compliance (SOC2/GDPR),skill/competence,4,Security & Compliance,False,urn:synthetic:asgp:fallback:SKL-047,synthetic_fallback
+SKL-048,Penetration Testing Principles,knowledge,4,Security & Compliance,False,urn:synthetic:asgp:fallback:SKL-048,synthetic_fallback
+SKL-049,Secrets Management (Vault),skill/competence,4,Security & Compliance,False,urn:synthetic:asgp:fallback:SKL-049,synthetic_fallback
+SKL-050,Zero-Trust Architecture,skill/competence,4,Security & Compliance,False,urn:synthetic:asgp:fallback:SKL-050,synthetic_fallback
+SKL-051,Agile & Scrum Delivery,skill/competence,5,Cross-Functional & Agile,True,urn:synthetic:asgp:fallback:SKL-051,synthetic_fallback
+SKL-052,Technical Documentation & RFCs,skill/competence,5,Cross-Functional & Agile,True,urn:synthetic:asgp:fallback:SKL-052,synthetic_fallback
+SKL-053,Continuous Integration (CI/CD),skill/competence,5,Cross-Functional & Agile,True,urn:synthetic:asgp:fallback:SKL-053,synthetic_fallback
+SKL-054,Stakeholder Communication,skill/competence,5,Cross-Functional & Agile,True,urn:synthetic:asgp:fallback:SKL-054,synthetic_fallback
+SKL-055,Product Backlog Prioritization,skill/competence,5,Cross-Functional & Agile,False,urn:synthetic:asgp:fallback:SKL-055,synthetic_fallback
+SKL-056,System Architecture Diagrams,skill/competence,5,Cross-Functional & Agile,False,urn:synthetic:asgp:fallback:SKL-056,synthetic_fallback
+SKL-057,Observability & Prometheus/Grafana,skill/competence,5,Cross-Functional & Agile,False,urn:synthetic:asgp:fallback:SKL-057,synthetic_fallback
+SKL-058,A/B Testing & Experimentation,knowledge,5,Cross-Functional & Agile,False,urn:synthetic:asgp:fallback:SKL-058,synthetic_fallback
+SKL-059,Root Cause Analysis (Post-mortems),skill/competence,5,Cross-Functional & Agile,False,urn:synthetic:asgp:fallback:SKL-059,synthetic_fallback
+SKL-060,Mentoring & Technical Leadership,skill/competence,5,Cross-Functional & Agile,False,urn:synthetic:asgp:fallback:SKL-060,synthetic_fallback

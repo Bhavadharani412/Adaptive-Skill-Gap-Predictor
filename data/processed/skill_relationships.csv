@@ -1,0 +1,17 @@
+skill_id_1,skill_id_2,relation_type,weight,source
+SKL-001,SKL-002,prerequisite,0.9,synthetic_fallback
+SKL-001,SKL-004,prerequisite,0.85,synthetic_fallback
+SKL-002,SKL-003,prerequisite,0.88,synthetic_fallback
+SKL-004,SKL-005,related,0.8,synthetic_fallback
+SKL-011,SKL-012,prerequisite,0.92,synthetic_fallback
+SKL-015,SKL-011,prerequisite,0.8,synthetic_fallback
+SKL-013,SKL-014,related,0.85,synthetic_fallback
+SKL-021,SKL-022,prerequisite,0.9,synthetic_fallback
+SKL-023,SKL-024,prerequisite,0.95,synthetic_fallback
+SKL-028,SKL-053,related,0.82,synthetic_fallback
+SKL-031,SKL-032,related,0.88,synthetic_fallback
+SKL-031,SKL-033,related,0.8,synthetic_fallback
+SKL-041,SKL-042,related,0.85,synthetic_fallback
+SKL-044,SKL-042,prerequisite,0.8,synthetic_fallback
+SKL-045,SKL-050,related,0.82,synthetic_fallback
+SKL-051,SKL-055,related,0.85,synthetic_fallback

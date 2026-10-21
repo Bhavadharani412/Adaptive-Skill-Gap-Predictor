@@ -1,0 +1,23 @@
+{
+  "source": "synthetic_fallback",
+  "imported_at": "2026-10-21T08:56:56.977151",
+  "status": "completed",
+  "warnings": [
+    "Using synthetic fallback data as no real ESCO files were found in data/raw/esco."
+  ],
+  "errors": [],
+  "metrics": {
+    "total_occupations": 10,
+    "total_skills": 60,
+    "total_occupation_skill_edges": 114,
+    "total_skill_relationships": 16,
+    "duplicate_occupations_filtered": 0,
+    "duplicate_skills_filtered": 0,
+    "unresolved_occupation_references": 0,
+    "unresolved_skill_references": 0,
+    "essential_edges_count": 71,
+    "optional_edges_count": 43,
+    "clusters_count": 6,
+    "generic_skills_count": 13
+  }
+}

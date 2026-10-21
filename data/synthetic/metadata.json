@@ -1,0 +1,29 @@
+{
+  "dataset_type": "synthetic_paper_reproduction_baseline",
+  "generated_at": "2026-10-21T08:59:47.125946",
+  "random_seed": 42,
+  "parameters": {
+    "num_occupations": 40,
+    "num_skills": 220,
+    "num_clusters": 8,
+    "generic_ratio": 0.12,
+    "num_employees": 600
+  },
+  "counts": {
+    "occupations": 40,
+    "skills": 220,
+    "generic_skills": 26,
+    "occupation_skill_edges": 759,
+    "training_modules": 220,
+    "employees": 600,
+    "employee_skill_records": 11385,
+    "mean_skills_per_occupation": 18.98,
+    "mean_initial_mastered_ratio": 0.461
+  },
+  "assumptions_documentation": [
+    "Occupations require 15-22 skills comprising primary cluster skills, secondary cluster skills, and generic cross-functional skills.",
+    "Occupation-skill relevance weights are sampled from Beta(4, 2) scaled to [0.45, 0.98] to reflect realistic post-recruitment importance distributions.",
+    "Employees are post-recruitment hires, initialized with probabilistic skill possession proportional to occupation relevance weight (mean ~48% initial readiness).",
+    "Assessments noise: 10% of required skills are initialized as 'not_assessed' to simulate realistic incomplete onboarding portfolios."
+  ]
+}

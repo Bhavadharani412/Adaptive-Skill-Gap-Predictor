@@ -1,0 +1,161 @@
+{
+  "phase_6_paper_reproduction": {
+    "experiment": "Phase 6: Paper Reproduction Baseline",
+    "split": "70/30 standard stratified train-test split",
+    "random_seed": 42,
+    "train_samples": 4295,
+    "test_samples": 1842,
+    "class_distribution": {
+      "negative (non-critical)": 4311,
+      "positive (critical)": 1826,
+      "critical_ratio": 0.2975
+    },
+    "circularity_disclosure": "Methodological Limitation: The paper's baseline target is defined directly from relevance_weight (top third quantile), which is simultaneously provided as a predictive feature. Consequently, classifiers primarily approximate this single-variable step function.",
+    "models": {
+      "logistic_regression": {
+        "accuracy": 0.9175,
+        "precision": 0.8094,
+        "recall": 0.9453,
+        "f1_score": 0.8721,
+        "roc_auc": 0.9813,
+        "pr_auc": 0.9557,
+        "brier_score": 0.0581,
+        "confusion_matrix": {
+          "true_negative": 1172,
+          "false_positive": 122,
+          "false_negative": 30,
+          "true_positive": 518
+        }
+      },
+      "random_forest": {
+        "accuracy": 0.9235,
+        "precision": 0.8246,
+        "recall": 0.9434,
+        "f1_score": 0.88,
+        "roc_auc": 0.9854,
+        "pr_auc": 0.9678,
+        "brier_score": 0.0527,
+        "confusion_matrix": {
+          "true_negative": 1184,
+          "false_positive": 110,
+          "false_negative": 31,
+          "true_positive": 517
+        }
+      },
+      "deterministic_threshold_rule": {
+        "accuracy": 0.9327,
+        "precision": 0.8174,
+        "recall": 0.9964,
+        "f1_score": 0.898,
+        "roc_auc": 0.951,
+        "pr_auc": 0.8155,
+        "brier_score": 0.0631,
+        "confusion_matrix": {
+          "true_negative": 1172,
+          "false_positive": 122,
+          "false_negative": 2,
+          "true_positive": 546
+        }
+      }
+    },
+    "random_forest_feature_importance": {
+      "relevance_weight": 0.8702,
+      "is_generic": 0.0875,
+      "possessed_skills_count": 0.0073,
+      "cluster_coverage": 0.0351
+    },
+    "paper_reported_reference_rf_f1": 0.915
+  },
+  "phase_7_improved_evaluation": {
+    "experiment": "Phase 7: Improved Defensible Evaluation",
+    "protocol": "Employee GroupKFold (5 folds) over 5 random seeds",
+    "total_evaluations": 25,
+    "target": "Simulated Outcome (non-circular role vulnerability)",
+    "metrics_with_95_ci": {
+      "logistic_regression": {
+        "f1": {
+          "mean": 0.7835,
+          "std": 0.024,
+          "ci_95_lower": 0.7739,
+          "ci_95_upper": 0.7932
+        },
+        "roc_auc": {
+          "mean": 0.9531,
+          "std": 0.0067,
+          "ci_95_lower": 0.9504,
+          "ci_95_upper": 0.9558
+        },
+        "pr_auc": {
+          "mean": 0.8689,
+          "std": 0.0296,
+          "ci_95_lower": 0.8571,
+          "ci_95_upper": 0.8808
+        },
+        "brier": {
+          "mean": 0.0894,
+          "std": 0.0046,
+          "ci_95_lower": 0.0876,
+          "ci_95_upper": 0.0913
+        }
+      },
+      "random_forest": {
+        "f1": {
+          "mean": 0.8941,
+          "std": 0.0102,
+          "ci_95_lower": 0.8901,
+          "ci_95_upper": 0.8982
+        },
+        "roc_auc": {
+          "mean": 0.9893,
+          "std": 0.0031,
+          "ci_95_lower": 0.9881,
+          "ci_95_upper": 0.9905
+        },
+        "pr_auc": {
+          "mean": 0.9631,
+          "std": 0.0153,
+          "ci_95_lower": 0.957,
+          "ci_95_upper": 0.9693
+        },
+        "brier": {
+          "mean": 0.0416,
+          "std": 0.002,
+          "ci_95_lower": 0.0408,
+          "ci_95_upper": 0.0424
+        }
+      },
+      "deterministic_rule": {
+        "f1": {
+          "mean": 0.6118,
+          "std": 0.0211,
+          "ci_95_lower": 0.6034,
+          "ci_95_upper": 0.6203
+        },
+        "roc_auc": {
+          "mean": 0.755,
+          "std": 0.0084,
+          "ci_95_lower": 0.7516,
+          "ci_95_upper": 0.7583
+        },
+        "pr_auc": {
+          "mean": 0.4528,
+          "std": 0.0269,
+          "ci_95_lower": 0.442,
+          "ci_95_upper": 0.4636
+        },
+        "brier": {
+          "mean": 0.2135,
+          "std": 0.0065,
+          "ci_95_lower": 0.2109,
+          "ci_95_upper": 0.2161
+        }
+      }
+    },
+    "feature_importances": {
+      "relevance_weight": 0.4652,
+      "is_generic": 0.0619,
+      "possessed_skills_count": 0.081,
+      "cluster_coverage": 0.392
+    }
+  }
+}
